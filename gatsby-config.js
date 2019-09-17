@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `TradingReview - WordPress Gatsby Starter`,
+    title: `TradingReview`,
     author: `Darth Trader`,
     description: `Our sole intention is to give the best trading companies reviews for the spread betting traders and the cfds ones. Find the best offers of each company!`,
     siteUrl: `https://tradingreview-prod.netlify.com`,
@@ -8,7 +8,7 @@ module.exports = {
       twitter: `darth_vtrader`,
     },
     postPrefix : '/blog',
-    pagePrefix: '',
+    pagePrefix: '/page',
   },
   plugins: [
     {
@@ -47,7 +47,7 @@ module.exports = {
           "/oembed/*",
           "/contact-form-7/**",
           "/regenerate-thumbnails/**",
-          "/akismet/*"
+          "/akismet/**"
         ],
         normalizer: function({ entities }) {
           return entities

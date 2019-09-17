@@ -37,7 +37,7 @@ const Layout = (props) => {
             color: '#666',
           }}
           >
-            With ❤ for Netlify
+            We Review ❤ You Trade
           </div>
         </>
       )
@@ -70,7 +70,7 @@ const Layout = (props) => {
           color: '#666',
         }}
         >
-          With ❤ for Netlify
+          We Review ❤ You Trade
         </div>
         </>
       )
@@ -84,27 +84,6 @@ const Layout = (props) => {
           padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
         }}
       >
-        <iframe
-          title="Star on GitHub"
-          src="https://ghbtns.com/github-btn.html?user=justinwhall&repo=gatsby-wordpress-netlify-starter&type=star&count=true&size=large"
-          frameBorder="0"
-          scrolling="0"
-          width="158px"
-          height="30px"
-          style={{
-            position: 'absolute',
-            left: 10,
-            top: 10,
-          }}
-          ></iframe>
-          <a
-          href="https://justinwhall.com/headless-wordpress-gatsby-netlify-continous-deployment/"
-          style={{
-            position: 'absolute',
-            left: 150,
-            top: 10,
-          }}
-        >Get Started</a>
         <header>{header}</header>
         <main>{children}</main>
         <footer>
@@ -112,7 +91,6 @@ const Layout = (props) => {
           {` `}
           <a href="https://www.gatsbyjs.org">Gatsby</a>
           {` `}
-          | Built by <a href="https://justinwhall.com">Justin W. Hall</a>
         </footer>
       </div>
     )
