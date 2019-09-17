@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: `WordPress Gatsby Starter`,
-    author: `Justin W Hall`,
-    description: `A Gatsby WordPress Starter with special love for Netlify`,
-    siteUrl: `https://gatsby-wordpress-netlify-production.netlify.com`,
+    title: `TradingReview - WordPress Gatsby Starter`,
+    author: `Darth Trader`,
+    description: `Our sole intention is to give the best trading companies reviews for the spread betting traders and the cfds ones. Find the best offers of each company!`,
+    siteUrl: `https://tradingreview-prod.netlify.com`,
     social: {
-      twitter: `justinwhall`,
+      twitter: `darth_vtrader`,
     },
     postPrefix : '/blog',
     pagePrefix: '',
@@ -44,7 +44,10 @@ module.exports = {
         excludedRoutes: [
           "/*/*/comments",
           "/yoast/**",
-          "/oembed/*"
+          "/oembed/*",
+          "/contact-form-7/**",
+          "/regenerate-thumbnails/**",
+          "/akismet/*"
         ],
         normalizer: function({ entities }) {
           return entities
